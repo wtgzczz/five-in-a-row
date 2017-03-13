@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8>
+	<title></title>
+	<style type="text/css">
+		*{ margin:0; padding:0;}
+		li{ list-style:none;}
+		#ul1{position: relative; height:auto; margin:20px auto; border:1px #000 solid; border-bottom:none; border-right:none;}
+		#ul1 li{border:1px #000 solid; border-top:none; border-left:none; float:left;}
+		.qizi{
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			border-radius: 50%;
+		}
+		.operation {
+	display: flex;
+	justify-content:center;
+}
+.btn {
+	width: 80px;
+	height: 30px;
+	margin: 15px;
+	border-radius: 5px;
+	background-color: #fff;
+	border: none;
+	box-shadow: -2px -2px 2px #efefef, 3px 3px 3px #b9b9b9;
+}
+	</style>
+</head>
+<body>
+	<ul id="ul1">
+	</ul>
+	<div class="operation"> 
+		<button class="btn" id="back">悔棋</button> 
+		<button class="btn" id="forward">撤销悔棋</button> 
+	</div>
+	<script src="js/script-dom.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+#chess {
+	display: block;
+	margin: 50px auto;
+	box-shadow: -2px -2px 2px #efefef, 5px 5px 5px #b9b9b9;
+}
+.operation {
+	display: flex;
+	justify-content:center;
+}
+.btn {
+	width: 80px;
+	height: 30px;
+	margin: 15px;
+	border-radius: 5px;
+	background-color: #fff;
+	border: none;
+	box-shadow: -2px -2px 2px #efefef, 3px 3px 3px #b9b9b9;
+}
