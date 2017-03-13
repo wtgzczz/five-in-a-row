@@ -5,3 +5,5 @@
 * 反悔悔棋功能
 * index.html --->canvas实现
 * index-dom.html--->dom实现
+
+![](five.png)
